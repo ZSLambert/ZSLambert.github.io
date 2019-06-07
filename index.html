@@ -39,6 +39,19 @@ h2{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+article {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 8.5in) 1fr;
+  height: 70vh;
+  padding: 0.5in 0;
+}
+
+article * {
+  grid-column: 2 / 3;
+}
+
+
 </style>
 </head>
 <body>
@@ -54,8 +67,10 @@ h2{
 
 <div class="main">
 <body bgcolor=#222 text = "white">
+    <article>
     <h1 align = "center"><font size = "12px"><b> Check out the different stuff </b></font> </h1>
-    <p align = "center"><font size = "6px"><img src = "zoe.jpg" align = "center" width = "15%" height = "15%"><br>Hello,<br>My name is Zoe Lambert and I have a passion for robotics, art, and programming. I am always working on a project.<br> My favorite ideas to work on involve video game design, crazy robots, and artwork.<br> I also spend much of my free time mentoring middle and high school-aged students on robotics and robotics related topics.</font></p>
+    <p align = "center"><font size = "6px"><img src = "zoe.jpg" align = "center" width = "30%" ><br>Hello,<br>My name is Zoe Lambert and I have a passion for robotics, art, and programming. I am always working on a project. My favorite ideas to work on involve video game design, crazy robots, and artwork. I also spend much of my free time mentoring middle and high school-aged students on robotics and robotics related topics.</font></p>
+    </article>
 </body>
 </div>
    
